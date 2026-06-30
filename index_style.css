@@ -76,3 +76,8 @@ a:visited {
     align-items: flex-start;
   }
 }
+
+.contact {
+  padding-left: 10px;
+  color: white;
+}
