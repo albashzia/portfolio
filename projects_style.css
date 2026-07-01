@@ -2,3 +2,9 @@ body {
   background-color: #0d1117;
   color: white;
 }
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+  padding-left: 30px;
+}
