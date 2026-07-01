@@ -8,3 +8,12 @@ a {
   text-decoration: none;
   padding-left: 30px;
 }
+
+a:hover {
+  color: #5ad1a5;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #3b82f6;
+}
