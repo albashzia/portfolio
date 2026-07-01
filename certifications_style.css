@@ -3,6 +3,11 @@ body {
   color: white;
 }
 
+h2 {
+  padding-left: 10px;
+  color: white;
+}
+
 a {
   color: #58a6ff;
   text-decoration: none;
