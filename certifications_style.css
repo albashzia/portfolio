@@ -9,7 +9,8 @@ h2 {
 }
 
 .issuer-name {
-  color: #5ad1a5;
+  text-decoration: underline;
+  color: white;
   text-align: left;
   padding-left: 90px;
 }
