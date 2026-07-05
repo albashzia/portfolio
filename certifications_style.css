@@ -8,6 +8,11 @@ h2 {
   color: white;
 }
 
+.issuer-name {
+  color: #5ad1a5;
+  text-align: left;
+}
+
 a {
   color: #58a6ff;
   text-decoration: none;
