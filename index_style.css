@@ -81,3 +81,7 @@ a:visited {
   padding-left: 10px;
   color: white;
 }
+
+* {
+  line-height: 25px;
+}
