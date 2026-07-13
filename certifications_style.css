@@ -29,3 +29,8 @@ a:hover {
 a:visited {
   color: #3b82f6;
 }
+
+* {
+  line-height: 25px;
+  font-family: Cursive, sans-serif;
+}
