@@ -30,6 +30,15 @@ a:visited {
   color: #3b82f6;
 }
 
+.project-card {
+  width: 80%;
+  margin: 40px auto;
+  background: #161b22;
+  border-radius: 12px;
+  border: 1px solid #30363d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 * {
   line-height: 20px;
   font-family: Cursive, sans-serif;
