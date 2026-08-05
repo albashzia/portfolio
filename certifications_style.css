@@ -23,7 +23,7 @@ main {
 
 .issuer-name {
   font-size: 22px;
-  text-decoration: underline;
+  text-decoration: none;
   color: #5ad1a5;
   text-align: left;
   padding-left: 90px;
