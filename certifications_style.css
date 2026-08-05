@@ -34,7 +34,7 @@ main {
 a {
   color: #58a6ff;
   text-decoration: none;
-  padding-left: 30px;
+  font-size: 14px;
 }
 
 a:hover {
@@ -62,11 +62,5 @@ main div {
 
 main div h2 {
   padding-left: 0;
-  color: white;
   margin-top: 0;
-}
-
-main div a {
-  padding-left: 0;
-  font-size: 14px;
 }
