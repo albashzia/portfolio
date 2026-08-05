@@ -65,3 +65,8 @@ main div h2 {
   color: white;
   margin-top: 0;
 }
+
+main div a {
+  padding-left: 0;
+  font-size: 14px;
+}
