@@ -59,3 +59,9 @@ main div {
   margin-bottom: 15px;
   margin-left: 10px;
 }
+
+main div h2 {
+  padding-left: 0;
+  color: white;
+  margin-top: 0;
+}
