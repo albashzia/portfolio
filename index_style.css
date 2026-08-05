@@ -94,3 +94,10 @@ a:visited {
   list-style-type: none;
   padding: 0;
 }
+
+.skills-list li {
+  background-color: #30363d;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
