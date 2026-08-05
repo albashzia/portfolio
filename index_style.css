@@ -86,3 +86,11 @@ a:visited {
   line-height: 25px;
   font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0;
+}
