@@ -50,3 +50,12 @@ a:visited {
   line-height: 1.6;
   font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+main div {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
