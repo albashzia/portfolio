@@ -1,0 +1,103 @@
+body {
+  background-color: #0d1117;
+  color: white;
+}
+.eyebrow {
+  padding-left: 10px;
+  color: #5ad1a5;
+}
+
+h1 {
+  padding-left: 10px;
+}
+
+h2 {
+  padding-left: 10px;
+  color: #5ad1a5;
+}
+
+.intro-box {
+  width: 90%;
+  max-width: 700px;
+  padding-left: 10px;
+
+  box-sizing: border-box;
+
+  overflow-wrap: break-word;
+}
+
+.intro-box p {
+  padding-left: 10px;
+  line-height: 1.6;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+a:hover {
+  color: #5ad1a5;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #3b82f6;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  font-size: 15px;
+  background-color: #0d1117;
+  padding: 15px 5%;
+  border-bottom: 1px solid #30363d;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.nav-links a {
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.contact {
+  padding-left: 10px;
+  color: white;
+}
+
+* {
+  line-height: 25px;
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0 0 0 10px;
+}
+
+.skills-list li {
+  background-color: #30363d;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
