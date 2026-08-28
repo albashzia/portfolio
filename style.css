@@ -2,6 +2,7 @@ body {
   background-color: #0d1117;
   color: white;
 }
+
 .eyebrow {
   padding-left: 10px;
   color: #5ad1a5;
@@ -169,11 +170,6 @@ main div h2 {
 
 header {
   text-align: center;
-}
-
-body {
-  background-color: #0d1117;
-  color: white;
 }
 
 h2 {
