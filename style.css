@@ -19,6 +19,11 @@ h2 {
   padding-left: 10px;
   color: #5ad1a5;
 }
+.cert-h2 {
+  font-size: 16px;
+  padding-left: 10px;
+  color: white;
+}
 
 .intro-box {
   width: 90%;
@@ -108,12 +113,6 @@ a:visited {
 
 /* Certifications Page */
 
-h2 {
-  font-size: 16px;
-  padding-left: 10px;
-  color: white;
-}
-
 main {
   max-width: 1000px;
   margin: auto;
@@ -167,10 +166,6 @@ main div h2 {
 
 header {
   text-align: center;
-}
-
-h2 {
-  padding-left: 10px;
 }
 
 p {
