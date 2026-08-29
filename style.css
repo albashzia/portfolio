@@ -92,8 +92,8 @@ a:visited {
 }
 
 * {
-  line-height: 25px;
   font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.7;
 }
 
 .skills-list {
@@ -143,11 +143,6 @@ a:visited {
   color: #3b82f6;
 }
 
-* {
-  line-height: 1.6;
-  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
 main div {
   background-color: #161b22;
   border: 1px solid #30363d;
@@ -194,9 +189,4 @@ a:visited {
   border-radius: 12px;
   border: 1px solid #30363d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-* {
-  line-height: 1.7;
-  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
