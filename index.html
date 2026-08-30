@@ -3,142 +3,224 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ahmad Albash Zia — Software Engineering student. Java, Python, Spring Boot, and cybersecurity projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
+    <title>Ahmad Albash Zia — Portfolio</title>
   </head>
   <body>
     <nav class="navbar">
       <div class="nav-links">
-        <a href="#Introduction">Introduction</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Certifications">Certifications</a>
-        <a href="#Contact">Contact</a>
+        <a class="tab active" href="#Introduction"
+          ><span class="dot"></span>about<span class="ext">.md</span></a
+        >
+        <a class="tab" href="#Skills"
+          ><span class="dot"></span>skills<span class="ext">.json</span></a
+        >
+        <a class="tab" href="#Projects"
+          ><span class="dot"></span>projects<span class="ext">/</span></a
+        >
+        <a class="tab" href="#Certifications"
+          ><span class="dot"></span>certifications<span class="ext"
+            >.log</span
+          ></a
+        >
+        <a class="tab" href="#Contact"
+          ><span class="dot"></span>contact<span class="ext">.txt</span></a
+        >
       </div>
     </nav>
-    <p class="eyebrow">Software Engineering Student</p>
-    <h1 align="left">Ahmad Albash Zia</h1>
 
-    <section id="Introduction">
-      <h2>Introduction</h2>
-
-      <article class="intro-box">
-        <p>
-          Hi, I'm Ahmad Albash Zia, a Software Engineering student and aspiring
-          developer. I am passionate about learning programming, building
-          practical projects, and exploring new technologies. Currently, I am
-          improving my skills in Java, Spring Boot, web development, and
-          software engineering fundamentals. I believe in continuous learning,
-          disciplined growth, and using technology to solve real-world problems.
+    <div class="page-shell">
+      <div class="hero">
+        <p class="eyebrow"><span class="prompt-sign">$</span> whoami</p>
+        <h1>Ahmad Albash Zia</h1>
+        <p class="eyebrow" style="margin-top: -4px">
+          Software Engineering Student
         </p>
-      </article>
-    </section>
 
-    <section id="Skills">
-      <h2 align="left">Skills</h2>
-      <ul class="skills-list">
-        <li>Java</li>
-        <li>Python</li>
-        <li>C++</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Spring Boot</li>
-        <li>Swing</li>
-        <li>Tkinter</li>
-      </ul>
-    </section>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="r"></span><span class="y"></span
+            ><span class="g"></span>
+            <span class="path">~/portfolio/about.md</span>
+          </div>
+          <div class="terminal-body">
+            <div class="line">
+              <span class="prompt-sign">&gt;</span>
+              <span
+                id="typed-name"
+                data-text="Building things with Java, Python, and a lot of debugging."
+                >Building things with Java, Python, and a lot of
+                debugging.</span
+              ><span class="cursor" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <section id="Projects">
-      <h2 align="left">Projects</h2>
-      <ul>
-        <li>Swing Library Management System - JAVA</li>
-        <li>Library Management System - JAVA</li>
-        <li>Vehicle Management System - JAVA</li>
-        <li>ATM Simulator - Python</li>
-        <li>Caesar Cipher - Python</li>
-        <li>Password Strength Checker - JAVA</li>
-        <li>To-Do List Manager - Python</li>
-        <li>Inventory Management System - JAVA</li>
-        <li>To-Do App - JAVA</li>
-        <li>Tech Resources Locator - HTML/CSS</li>
-      </ul>
-      <a href="./projects.html" target="_blank">Go to projects page</a>
-    </section>
+      <section id="Introduction">
+        <p class="section-comment">about</p>
+        <h2>Introduction</h2>
 
-    <div id="Certifications">
-      <h2 align="left">Certifications</h2>
-      <ul>
-        <li>Advanced Git Features - CodeSignal</li>
-        <li>Agile Project Management - HP Life</li>
-        <li>Agentic Workflows - SoloLearn</li>
-        <li>AI powered A/B Testing - SoloLearn</li>
-        <li>AI for Beginners - HP Life</li>
-        <li>AI for Business - HP Life</li>
-        <li>AI-Powered Product and UX - SoloLearn</li>
-        <li>Bias Detection and Mitigation in AI Systems - SoloLearn</li>
-        <li>Brainstorm with AI - SoloLearn</li>
-        <li>Critical Thinking in the age of AI - SoloLearn</li>
-        <li>Discovering DevOps - Udacity</li>
-        <li>Effective Business Websites - HP Life</li>
-        <li>Ethical AI Foundations - SoloLearn</li>
-        <li>Generative AI in Progress - SoloLearn</li>
-        <li>Git Basics - CodeSignal</li>
-        <li>Git Version Control for Beginners - CodeSignal</li>
-        <li>Growth Mindset in the age of AI - SoloLearn</li>
-        <li>Hacker Methodology- Udemy</li>
-        <li>Hacking with ChatGpt - Udemy</li>
-        <li>Introduction to C - SoloLearn</li>
-        <li>Introduction to C++ - SoloLearn</li>
-        <li>Introduction to Cybersecurity - HP Life</li>
-        <li>Introduction to HTML - Sololearn</li>
-        <li>Introduction to Java - SoloLearn</li>
-        <li>Introduction to LLMs - SoloLearn</li>
-        <li>
-          Java Basics in Practice with 35+ Exercises & Quizzes(2025) - Udemy
-        </li>
-        <li>Java Intermediate - SoloLearn</li>
-        <li>Machine Learning for Beginners - SoloLearn</li>
-        <li>Matering HTML5 and CSS3 (Part 1 - Beginner Level) - Udemy</li>
-        <li>Meet Claude - SoloLearn</li>
-        <li>Presenting Data - HP Life</li>
-        <li>Project Planning with AI - SoloLearn</li>
-        <li>Prompt Engineering - SoloLearn</li>
-        <li>Python Web Scraping - Udemy</li>
-        <li>Selling Online - HP Life</li>
-        <li>Social Media Marketing with AI - SoloLearn</li>
-        <li>Target Audience - HP Life</li>
-        <li>Tech for Everyone - SoloLearn</li>
-        <li>Think Creatively with AI - SoloLearn</li>
-        <li>Undoing Changes and Time Traveling - CodeSignal</li>
-        <li>Vibe Coding - SoloLearn</li>
-        <li>WEB5 Fundamentals - Udemy</li>
-        <li>Working with Branches - CodeSignal</li>
-        <li>Working with Remote Repositories - CodeSignal</li>
-        <li>Write with AI - SoloLearn</li>
-      </ul>
-      <a href="./certifications.html" target="_blank"
-        >Go to Certifications page</a
-      >
+        <article class="intro-box">
+          <p>
+            Hi, I'm Ahmad Albash Zia, a Software Engineering student and
+            aspiring developer. I am passionate about learning programming,
+            building practical projects, and exploring new technologies.
+            Currently, I am improving my skills in Java, Spring Boot, web
+            development, and software engineering fundamentals. I believe in
+            continuous learning, disciplined growth, and using technology to
+            solve real-world problems.
+          </p>
+        </article>
+      </section>
+
+      <section id="Skills">
+        <p class="section-comment">skills</p>
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="lang-java">Java</li>
+          <li class="lang-python">Python</li>
+          <li class="lang-cpp">C++</li>
+          <li class="lang-html">HTML</li>
+          <li class="lang-css">CSS</li>
+          <li class="lang-git">Git</li>
+          <li class="lang-github">GitHub</li>
+          <li class="lang-spring">Spring Boot</li>
+          <li class="lang-swing">Swing</li>
+          <li class="lang-tkinter">Tkinter</li>
+        </ul>
+      </section>
+
+      <section id="Projects">
+        <p class="section-comment">projects</p>
+        <h2>Projects</h2>
+        <ul>
+          <li>Swing Library Management System — JAVA</li>
+          <li>Library Management System — JAVA</li>
+          <li>Vehicle Management System — JAVA</li>
+          <li>ATM Simulator — Python</li>
+          <li>Caesar Cipher — Python</li>
+          <li>Password Strength Checker — JAVA</li>
+          <li>To-Do List Manager — Python</li>
+          <li>Inventory Management System — JAVA</li>
+          <li>To-Do App — JAVA</li>
+          <li>Tech Resources Locator — HTML/CSS</li>
+        </ul>
+        <a class="view-link" href="./projects.html" target="_blank"
+          >View all projects</a
+        >
+      </section>
+
+      <div id="Certifications">
+        <p class="section-comment">certifications</p>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Advanced Git Features - CodeSignal</li>
+          <li>Agile Project Management - HP Life</li>
+          <li>Agentic Workflows - SoloLearn</li>
+          <li>AI powered A/B Testing - SoloLearn</li>
+          <li>AI for Beginners - HP Life</li>
+          <li>AI for Business - HP Life</li>
+          <li>AI-Powered Product and UX - SoloLearn</li>
+          <li>Bias Detection and Mitigation in AI Systems - SoloLearn</li>
+          <li>Brainstorm with AI - SoloLearn</li>
+          <li>Critical Thinking in the age of AI - SoloLearn</li>
+          <li>Discovering DevOps - Udacity</li>
+          <li>Effective Business Websites - HP Life</li>
+          <li>Ethical AI Foundations - SoloLearn</li>
+          <li>Generative AI in Progress - SoloLearn</li>
+          <li>Git Basics - CodeSignal</li>
+          <li>Git Version Control for Beginners - CodeSignal</li>
+          <li>Growth Mindset in the age of AI - SoloLearn</li>
+          <li>Hacker Methodology - Udemy</li>
+          <li>Hacking with ChatGpt - Udemy</li>
+          <li>Introduction to C - SoloLearn</li>
+          <li>Introduction to C++ - SoloLearn</li>
+          <li>Introduction to Cybersecurity - HP Life</li>
+          <li>Introduction to HTML - SoloLearn</li>
+          <li>Introduction to Java - SoloLearn</li>
+          <li>Introduction to LLMs - SoloLearn</li>
+          <li>
+            Java Basics in Practice with 35+ Exercises &amp; Quizzes (2025) -
+            Udemy
+          </li>
+          <li>Java Intermediate - SoloLearn</li>
+          <li>Machine Learning for Beginners - SoloLearn</li>
+          <li>Mastering HTML5 and CSS3 (Part 1 - Beginner Level) - Udemy</li>
+          <li>Meet Claude - SoloLearn</li>
+          <li>Presenting Data - HP Life</li>
+          <li>Project Planning with AI - SoloLearn</li>
+          <li>Prompt Engineering - SoloLearn</li>
+          <li>Python Web Scraping - Udemy</li>
+          <li>Selling Online - HP Life</li>
+          <li>Social Media Marketing with AI - SoloLearn</li>
+          <li>Target Audience - HP Life</li>
+          <li>Tech for Everyone - SoloLearn</li>
+          <li>Think Creatively with AI - SoloLearn</li>
+          <li>Undoing Changes and Time Traveling - CodeSignal</li>
+          <li>Vibe Coding - SoloLearn</li>
+          <li>WEB5 Fundamentals - Udemy</li>
+          <li>Working with Branches - CodeSignal</li>
+          <li>Working with Remote Repositories - CodeSignal</li>
+          <li>Write with AI - SoloLearn</li>
+        </ul>
+        <a class="view-link" href="./certifications.html" target="_blank"
+          >View all certifications</a
+        >
+      </div>
+
+      <section id="Contact">
+        <p class="section-comment">contact</p>
+        <h2>Contact</h2>
+        <p class="contact">ahmedalbashzia@gmail.com</p>
+
+        <p class="section-comment" style="margin-top: 26px">social</p>
+        <div class="social-row">
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/albashzia/"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.11 20.45H3.56V9h3.55v11.45z"
+              />
+            </svg>
+          </a>
+          <a
+            class="social-link"
+            href="https://github.com/albashzia"
+            target="_blank"
+            rel="noopener"
+            aria-label="GitHub"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.57 2.34 1.11 2.91.85.09-.67.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.72 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.2C22 6.58 17.52 2 12 2z"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <span class="prompt-sign" style="color: var(--accent)">$</span> built
+        with HTML, CSS &amp; a lot of coffee
+      </footer>
     </div>
-    <h2 align="left" id="Contact">Contact</h2>
-    <p class="contact">ahmedalbashzia@gmail.com</p>
-    <div>
-      <h2 align="left">Social Media</h2>
-      <a href="https://www.linkedin.com/in/albashzia/" target="_blank"
-        ><img
-          src="https://images.unsplash.com/photo-1611944212129-29977ae1398c?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlua2VkaW4lMjBpY29ufGVufDB8fDB8fHww"
-          alt="LinkedIn"
-          width="100"
-      /></a>
 
-      <a href="https://github.com/albashzia" target="_blank"
-        ><img
-          src="https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg"
-          alt="GitHub"
-          width="100"
-      /></a>
-    </div>
+    <script src="script.js"></script>
   </body>
 </html>
