@@ -3,11 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Projects</title>
+    <title>Projects — Ahmad Albash Zia</title>
   </head>
   <body>
+    <nav class="navbar">
+      <div class="nav-links">
+        <a class="tab" href="./index.html#Introduction"
+          ><span class="dot"></span>about<span class="ext">.md</span></a
+        >
+        <a class="tab" href="./index.html#Skills"
+          ><span class="dot"></span>skills<span class="ext">.json</span></a
+        >
+        <a class="tab active" href="./projects.html"
+          ><span class="dot"></span>projects<span class="ext">/</span></a
+        >
+        <a class="tab" href="./index.html#Certifications"
+          ><span class="dot"></span>certifications<span class="ext"
+            >.log</span
+          ></a
+        >
+        <a class="tab" href="./index.html#Contact"
+          ><span class="dot"></span>contact<span class="ext">.txt</span></a
+        >
+      </div>
+    </nav>
+
     <header>
+      <p class="section-comment" style="justify-content: center; display: flex">
+        projects/
+      </p>
       <h1>Projects</h1>
     </header>
     <main>
@@ -26,6 +57,7 @@
             serialization, and event-driven GUI development.
           </p>
           <a
+            class="view-link"
             href="https://github.com/asrawazir/Swing-Library-Management-System/tree/master"
             target="_blank"
           >
@@ -55,6 +87,7 @@
           </p>
 
           <a
+            class="view-link"
             href="https://github.com/albashzia/Library-Management-System-II"
             target="_blank"
           >
@@ -86,6 +119,7 @@
           </p>
 
           <a
+            class="view-link"
             href="https://github.com/albashzia/Vehicle-Management-System"
             target="_blank"
           >
@@ -117,6 +151,7 @@
           </p>
 
           <a
+            class="view-link"
             href="https://github.com/albashzia/ATM-Simulator-II"
             target="_blank"
           >
@@ -144,6 +179,7 @@
             libraries or databases.
           </p>
           <a
+            class="view-link"
             href="https://github.com/albashzia/To-Do-App-Python"
             target="_blank"
           >
@@ -175,6 +211,7 @@
           </p>
 
           <a
+            class="view-link"
             href="https://github.com/albashzia/Caesar-Cipher-Python"
             target="_blank"
           >
@@ -204,7 +241,11 @@
             tasks on startup and save updates after each modification.
           </p>
 
-          <a href="https://github.com/albashzia/To-Do-App-Java" target="_blank">
+          <a
+            class="view-link"
+            href="https://github.com/albashzia/To-Do-App-Java"
+            target="_blank"
+          >
             View GitHub Repository
           </a>
         </div>
@@ -214,11 +255,13 @@
         <div class="project-content">
           <h2>Tech Resources Locator</h2>
 
-          <p></p>
-
-          <p></p>
+          <p>
+            An HTML/CSS project focused on locating and presenting curated tech
+            resources through a clean, static front-end layout.
+          </p>
 
           <a
+            class="view-link"
             href="https://github.com/eshaln/Tech-Resources-Locator-"
             target="_blank"
           >
@@ -227,5 +270,7 @@
         </div>
       </div>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
